@@ -1,0 +1,527 @@
+@import "bourbon"
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+
+// Контент главной
+.main-content
+	position: relative
+	background-color: #fff
+.sidebar
+	
+	position: relative
+	margin-top: 20px
+// Каталог 
+.main-catalog,
+.second-catalog
+	background-color: #dd6b35
+	border: 1px solid #ccc
+	border-radius: 5px
+	h2
+		text-transform: uppercase
+		text-align: center
+		font-size: 20px
+		color: #000
+		margin: 0
+		padding: 10px 0
+		box-shadow: 0px 1px 9px rgba(0, 0, 0, .2)
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+	li
+		
+		display: block
+		padding: 10px 5px
+		
+		&:hover
+			background-color: #fff
+			border-radius: 4px
+			transition: all 0.1s ease-in-out
+	a
+		color: #000
+		font-family: "RobotoCondensedRegular", sans-serif
+		font-size: 16px 
+		text-transform: uppercase
+		margin-left: 50px
+		display: block
+		&:hover
+			color: #000
+			text-decoration: none
+	img
+		position: absolute
+		width: 25px
+		height: 25px
+		left: 15px
+	
+.active-catalog
+	color: #000
+	text-decoration: none
+	background-color: #FFF
+	border-radius: 4px		
+.second-catalog
+	background-color: #F9C044
+	border: 1px solid #ccc
+	border-radius: 5px
+	position: relative
+	margin-top: 20px			
+.third-catalog,
+.fourth-catalog
+	margin-top: 20px
+// Каруселька
+.carusel
+	margin-top: 20px
+	width: 100%
+	border: 2px solid #fff
+	border-radius: 10px
+.carusel_item
+	position: relative
+	img
+		border-radius: 10px
+		width: 100%
+		height: 400px
+
+// Инфа контента 
+.content_information
+	text-align: center
+	color: #000
+	font-family: "RobotoRegular"
+	h2
+		font-size: 35px
+		text-transform: uppercase
+		margin: 10px 0 15px 0
+		padding: 0
+	p
+		font-size: 22px
+		margin: 0 0 15px 0
+		padding: 0
+.second_content_information
+	text-align: center
+.circle,
+.square
+	width: 200px
+	height: 200px
+	display: block
+	border-radius: 50%
+	-moz-border-radius: 50%
+	-webkit-border-radius: 50%
+	-khtml-border-radius: 50%
+	font-size: 20px
+	color: #fff
+	line-height: 100px
+	text-align: center
+	background: #ccc
+	margin: 0 auto
+	img
+		width: 100px
+		height: 100px
+		vertical-align: middle
+		margin-top: 40px
+.square
+	border-radius: 5px
+	background-color: #ccc
+.content_item
+	text-align: center
+	margin-top: 25px
+	h2
+		margin: 15px 0 15px 0
+		padding: 0
+	p
+		margin: 0 0 15px 0
+		padding: 0
+		
+.second_content_information
+	h2
+		text-transform: uppercase
+
+// Время работы
+.content_time_work
+	background-image: url("../img/rabota.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	color: #fff
+	h2
+		text-transform: uppercase
+	strong
+		font-size: 20px
+		margin-right: 5px
+	b
+		color: #F9C044
+	span
+		text-transform: uppercase
+		color: #F9C044
+		font-size: 20px
+		font-family: "RobotoBold"
+		margin-bottom: 30px
+	h3
+		font-size: 26px
+		font-family: "RobotoCondensedBold"
+		margin: 0 0 10px 0
+		padding: 0
+		color: #fff!important		
+					
+.time_text
+	background: rgba(0,0,0,.70)
+	padding: 20px
+	text-align: center
+	font-family: "RobotoLight", sans-serif
+	margin-top: 20px
+
+// Что мы покупаем
+.what_we_buy
+	text-align: left
+	h2
+		text-align: center
+		text-transform: uppercase
+		margin-top: 30px
+	p
+		text-align: left
+
+
+//  Нижняя каруселька
+.bottom_carusel_description
+	h2
+		text-transform: uppercase
+		text-align: center
+		margin: 30px 0
+.bottom_carusel
+	margin-bottom: 20px
+	border: 2px solid #fff
+	border-radius: 10px
+	.slick-prev
+    	left: 10px
+	.slick-next
+		right: 40px
+	img
+		border-radius: 10px
+		width: 100%
+		height: 300px
+	.carusel_img
+		height: 300px
+	.carusel_item
+		margin: 0 5px
+
+// Главная инфа футера
+.main-footer
+	background-color: #373742
+	margin-top: 5px
+	font-family: "RobotoCondensedBold", sans-serif
+	h3
+		margin: 20px 0 10px 0
+		padding: 0
+		color: #DD6B35
+
+	ul
+		margin: 0
+		padding: 0
+		list-style-type: none
+	li
+		padding: 2px 0
+	a
+		color: #fff
+		&:hover
+			color: #fff
+
+.footer_nav
+	margin-bottom: 30px
+.viber
+	background-image: url("../img/viber-icon.png")
+	background-repeat: no-repeat
+	line-height: 40px
+.footer_copy
+	font-size: 13px
+	color: #fff
+	margin: 10px 0
+.footer_adr
+	color: #fff
+	p,li
+		font-size: 20px
+	img
+		width: 30px
+		height: 30px
+		margin-right: 10px
+	p
+		margin: 10px 0 5px 0
+		padding: 0
+	a
+		color: #fff
+		&:hover
+			text-decoration: none
+			color: #fff
+			cursor: pointer
+
+.active-footer
+	a
+		color: #DD6B35
+
+
+
+// price for details
+
+.details_content
+	text-align: center
+	h2
+		font-size: 2em
+		margin: 20px 0
+		padding: 0
+		text-transform: uppercase
+		color: #000
+		box-shadow: 0px 1px 9px rgba(0, 0, 0, .2)
+.details_content_description
+	h2, h3
+		text-align: center
+	p
+		color: #000
+		font-family: "RobotoCondensedLight", sans-serif
+		font-size: 24px
+		text-align: center
+	a
+		color: #000
+		&:hover
+			color: #DD6B35
+	.main_button_wrap
+		margin-top: 40px
+.price_details
+	text-align: center
+	h3	
+		margin: 20px 0
+		padding: 0
+.price_button_wrap
+	text-align: center
+	margin-bottom: 34px
+	a
+		color: #fff
+		text-transform: uppercase
+.price_button
+	padding: 10px 30px
+	background-color: #dd6b35
+	border-radius: 5px
+	font-size: 16px
+	&:hover
+		background-color: #dd6b20
+		transition: all 0.3s ease-in-out
+		color: #000
+		text-decoration: none
+		font-family: "RobotoBold"
+
+.issue_price
+	p
+		font-size: 18px
+		color: #000
+		font-family: "RobotoCondensedLight"
+.item_catalog
+	margin-top: 20px
+	text-align: center
+	img
+		max-width: 100%
+		border-top: 8px solid #AC160A;
+		height: 200px
+
+	p
+		color:#050505
+		font-size: 14px
+		
+		font-family: "RobotoRegular",sans-serif
+		margin-bottom: 30px
+
+#content_time_work
+	background-image: url("../img/rabota.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	color: #fff
+	h2
+		text-transform: uppercase
+	strong
+		font-size: 20px
+		margin-right: 5px
+	b
+		color: #F9C044
+	span
+		text-transform: uppercase
+		color: #F9C044
+		font-size: 20px
+		font-family: "RobotoBold"
+		margin-bottom: 30px
+	h3
+		font-size: 26px
+		font-family: "RobotoCondensedBold"
+		margin: 0 0 10px 0
+		padding: 0							
+	.time_text
+		background: rgba(0,0,0,.70)
+		padding: 20px
+		text-align: center
+		font-family: "RobotoLight", sans-serif
+		margin-top: 20px
+
+.fancybox-caption-wrap 
+	text-align: center
+
+
+
+.description_section
+	h2
+		text-align: center
+		box-shadow: 0px 1px 9px rgba(0, 0, 0, .2)
+#kurs-com-ua-informer-main-ukraine-249x130-orange-container
+	margin-bottom: 20px
+
+
+
+// Контакты
+.contacts_content
+	margin-bottom: 30px
+	color: #000
+	h2
+		font-family: "RobotoCondensedBold"
+		text-align: left
+		text-transform: uppercase
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+	img
+		margin-right: 15px
+	li
+		font-size: 20px
+		text-transform: uppercase
+		font-family: "RobotoCondensedBold", sans-serif
+	p
+		font-size: 20px
+		margin: 0
+		padding: 5px 0 0 55px
+		font-family: "RobotoCondensedLight"
+	a
+		color: #000
+		&:hover
+			color: #000
+			text-decoration: none
+
+	span
+		color: #DD6B35
+		font-family: "RobotoCondensedRegular", sans-serif
+.map_situated
+	margin-bottom: 30px
+
+// Биржа
+.birzha_content
+	h3
+		font-size: 20px
+		text-align: center
+		text-transform: uppercase
+		font-family: "RobotoCondensedRegular"
+	span
+		color: #DD6B35	
+.birzha_price
+	text-align: center
+	margin-bottom: 20px
+	img
+		max-width: 100%
+
+// Оптовым Клиентам
+.optom_content
+	text-align: center		
+
+.museum_description,
+.recommended_description,
+.about_post_description,
+.answer_the_question,
+.bad_equipment_description,
+.attention_indicators,
+.catalyst_description,
+.pechatka,
+.color_metals,
+
+
+	p
+		text-align: center
+		font-family: "RobotoCondensedRegular"
+		font-size: 20px
+		margin: 10px 0
+		padding: 0
+.weight_content
+	img
+		text-align: center
+		width: 100%
+		border-radius: 10px
+		margin-top: 20px
+		height: 400px
+		margin-bottom: 30px
+.post_check
+	img
+		width: 100%
+		height: auto
+		border-radius: 10px
+		margin: 20px 0
+.bottom_p
+	margin-left: 35px
+.recommended_pt,
+.about_post,
+.answer,
+.weight_content,
+.post_check
+
+	ul
+		list-style-image: url("../img/arrow.png")
+	li
+		margin: 5px 0
+
+		font-size: 18px
+		font-family: "RobotoCondensedRegular"	
+.bottom_p
+	text-align: center
+// Секция ответы на вопросы
+.answer
+	p
+		padding: 0
+		margin: 5px 0 10px 0
+		text-align: left
+	a
+		color: #DD6B35
+		&:hover
+			color: #000	
+// Описание илдикаторных ламп
+.indicators_description
+	ul
+		list-style-image: none
+	li
+		b
+			margin-left: 15px	
+// Важно
+.attention_indicators
+	margin-bottom: 30px
+	h2
+		color: #DF1B23
+		margin: 10px 0
+		padding: 0
+	p
+		text-align: left
+// Цвет мет
+.color_metals
+	p
+		margin-bottom: 30px
+

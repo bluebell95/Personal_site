@@ -1,0 +1,131 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main-menu li {
+    padding: 5px 14px !important; }
+  .main-menu a {
+    font-size: 19px !important; }
+  .main-catalog h2,
+  .second-catalog h2 {
+    font-size: 17px !important; }
+  .top_adress a {
+    display: block; }
+  .ta_right {
+    margin-top: 10px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main-menu li {
+    display: block !important; }
+  .top_adress strong {
+    font-size: 26px !important; }
+  .ta_right .fa {
+    margin-left: -190px !important; }
+  .header_description h1 {
+    font-size: 1.6em; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-menu li {
+    display: block !important; }
+  .what_we_buy h3 {
+    text-align: center; }
+  .what_we_buy p {
+    text-align: center; }
+  .top_adress.ta_right {
+    text-align: center; }
+  .ta_right .fa {
+    margin-left: -85px !important; }
+  .header_description h1 {
+    font-size: 1.3em; }
+  .content_item p {
+    padding: 0 100px; }
+  .footer_nav,
+  .footer_copy,
+  .footer_faq,
+  .footer_adr,
+  .footer_counter {
+    text-align: center !important; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header_description {
+    text-align: center;
+    font-size: 18px; }
+    .header_description h1 {
+      padding: 20px 0;
+      font-size: 1.8em; }
+  .main-menu li {
+    display: block !important; }
+  .top_adress {
+    text-align: center; }
+  .top_adress a,
+  .top_adress strong {
+    padding: 0; }
+  .logo_wrap {
+    margin-bottom: 10px; }
+  .top_adress .fa.fa-map-marker {
+    display: none; }
+  .ta_right .fa {
+    margin-left: -110px !important; }
+  .content_item p {
+    padding: 0 40px; }
+  .details_content_description p {
+    font-size: 20px; }
+  .carusel_item img {
+    height: 300px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .ta_right .fa {
+    margin-left: -90px !important; }
+  .top_adress a, .top_adress strong {
+    padding: 0; }
+  .ta_right span {
+    display: inline-block; }
+  .ta_right strong {
+    font-size: 20px !important; } }

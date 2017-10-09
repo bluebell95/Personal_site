@@ -1,0 +1,149 @@
+@import "bourbon"
+
+
+body
+	font-size: 16px!important
+	position: relative
+	line-height: 1.6!important
+	font-family: "RobotoRegular", sans-serif!important
+	overflow-x: hidden
+	
+
+// Начало Хедера
+header
+	background-image: url("../img/1.jpg")
+	background-size: cover
+	background-position: top center
+	background-repeat: no-repeat
+	position: relative
+
+.main-header
+	font-family: "BebasBold", sans-serif
+	position: relative
+
+// Верхняя линия
+.top_line
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .4)
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .4)
+	border-top: 5px solid #498287
+	padding: 15px 0
+.top_line a 
+	font-size: 20px
+	color: #000
+.top_adress
+	strong,
+	a
+		padding-left: 50px
+		line-height: 30px
+		&:focus
+			color: #000	
+	a
+		&:hover
+			color: #000
+			cursor: pointer
+		&:focus
+			color: #000		
+
+	.fa.fa-map-marker
+		position: absolute
+		padding-left: -50px
+		display: inline-block
+		line-height: 45px
+	strong 
+		color: #A53D2F
+		text-transform: uppercase
+		font-size: 32px
+		display: block
+		font-weight: normal
+		font-family: "RobotoCondensedBold"
+
+// Логотип
+.logo_wrap
+	text-align: center
+.logo_wrap img	
+	width: 250px
+	height: 55px
+
+// Контакты справа
+.ta_right 
+	text-align: right
+	background-image: none
+	span
+		color: #000
+		word-spacing: 1px
+	.fa
+		position: absolute
+		margin-left: -235px	
+
+// Черный фон 
+.bg_dark
+	background: rgba(0,0,0,.70)
+
+// Описание Хедера
+.header_description
+	text-align: center
+	font-size: 36px
+	h1
+		padding: 0px 100px
+		color: #fff
+		font-size: 1.5
+		font-size: 1.9em
+		margin: 0 0 25px 0
+	span
+		color: #f9c044
+
+// Главная Кнопка
+.main_button_wrap
+	text-align: center
+	margin-bottom: 34px
+	a
+		color: #fff
+		text-transform: uppercase
+.main_button
+	padding: 10px 40px
+	background-color: #dd6b35
+	border-radius: 5px
+	font-size: 20px
+	font-family: "RobotoCondensedRegular"
+	&:hover
+		background-color: #F9C044
+		transition: all 0.3s ease-in-out
+		color: #000
+		text-decoration: none
+
+// Менюшка
+.main-menu
+	text-align: center
+	font-family: "RobotoCondensedLight", sans-serif
+	text-transform: uppercase
+	
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+
+	li
+		display: inline-block
+		padding: 5px 15px
+		&:hover
+			background-color: #dd5b35
+			transition: all 0.2s ease-in-out
+
+	.active
+		background-color: #dd5b35
+		
+	a
+		color: #fff
+		display: block
+		font-size: 20px
+		&:hover
+			color: #fff
+			text-decoration: none
+				
+		
+
+
+
+
+
